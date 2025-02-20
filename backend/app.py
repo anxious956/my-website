@@ -4,7 +4,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-@app.route('/data')j
+@app.route('/data')
 def send_data():
     return jsonify({"message": "Hello from Python backend!"})
 
